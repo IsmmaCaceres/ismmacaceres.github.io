@@ -59,7 +59,7 @@
   right: 0%;
   width: 0;
   border-left: 1px solid #000;
-  animation: maquina 5s infinite alternate steps(14);
+  animation: maquina 7s infinite alternate steps(14);
   animation: name duration timing-function delay iteration-count direction
     fill-mode;
 }
@@ -192,5 +192,15 @@ li {
   text-align: center;
   color: #146eb0;
 }
+@media screen and (max-width: 650px)  {
+   .padre{background-color: #d8e2dc;}
+    .t1 span{ background-color: #d8e2dc;}
+  }
+
+  @media screen and (max-width:550px) {
+    .padre{background-color: #64dfdf;}
+    .t1 span{ background-color: #64dfdf;}
+  }
+
 
     
